@@ -283,7 +283,7 @@ jobs:
           fi
       
       - name: 上传分析报告
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@ea165f8d65b6e75d540bfa2cc2b801f667556a8a
         if: always()
         with:
           name: analysis-reports-${{ github.run_number }}
