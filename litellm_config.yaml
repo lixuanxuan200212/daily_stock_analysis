@@ -20,7 +20,7 @@ model_list:
   # 这是一个自定义 OpenAI 兼容模型渠道的示例
   - model_name: openai/deepseek-ai/DeepSeek-V3
     litellm_params:
-      model: openai/Qdeepseek-ai/DeepSeek-V3
+      model: openai/deepseek-ai/DeepSeek-V3
       api_key: "os.environ/LITELLM_API_KEY" # 从环境变量读取 Key，安全防泄漏
       api_base: https://api.siliconflow.cn/v1
       # 以下配置是表示如何启用Qwen模型的enable_thinking开关
